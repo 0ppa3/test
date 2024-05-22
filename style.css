@@ -175,3 +175,31 @@ p {
 .updated {
     color: #fcd600; /* Yellow for updates */
 }
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-text {
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: -15px;
+    background: linear-gradient(270deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0de0c4, #4b0082, #8b00ff, #bcec9c, #677e91);
+    background-size: 1400% 1400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-size: 1400% 1400%;
+    animation: gradient 40s ease infinite;
+}
