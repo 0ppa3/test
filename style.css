@@ -38,7 +38,22 @@ p {
     overflow-y: scroll; /* Enable vertical scrolling */
 }
 
-/* Custom Scrollbar Styles for WebKit Browsers */
+#search-input {
+    width: 100%;
+    padding: px;
+    margin-bottom: 20px;
+    border: 1px solid #333232;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #e0e0e0;
+    margin-left: 10px;
+}
+
 .changelog-container::-webkit-scrollbar {
     width: 12px;
 }
