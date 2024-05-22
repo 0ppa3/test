@@ -40,7 +40,7 @@ p {
 
 #search-input {
     width: 100%;
-    padding: px;
+    padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #333232;
     border-radius: 5px;
@@ -99,7 +99,7 @@ p {
 }
 
 .changelog li:last-child {
-    margin-bottom: 2;
+    margin-bottom: 2px;
 }
 
 /* New styles for list items based on content */
@@ -112,7 +112,7 @@ p {
 }
 
 .changelog li:has(strong:contains("=")) {
-    color: #fcd600; /* Red for deletions */
+    color: #fcd600; /* Yellow for updates */
 }
 
 .purchase-button {
@@ -173,5 +173,5 @@ p {
 }
 
 .updated {
-    color: #fcd600; /* orange for deletions */
+    color: #fcd600; /* Yellow for updates */
 }
