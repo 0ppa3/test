@@ -164,19 +164,6 @@ p {
     background-color: #f8c7f0;
 }
 
-.added {
-    color: #00ff00; /* Green for additions */
-}
-
-.deleted {
-    color: #ff0000; /* Red for deletions */
-}
-
-.updated {
-    color: #fcd600; /* Yellow for updates */
-}
-
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
